@@ -1,5 +1,5 @@
-# SOW-Project
 # GroupS_CS4273_Spring2026
+# SOW-Project
 
 Our project consists of creating a robust tool that lets users assemble SOWs(Statement of Work) by selecting standardized template sections and adding custom inputs, then generates a fully formatted and professional final document.
 
