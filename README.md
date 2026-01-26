@@ -5,21 +5,21 @@ Our project consists of creating a robust tool that lets users assemble SOWs(Sta
 
 ## Technologies and Tools
 
-- **Tech 1** 
-  Explanation 1
-- **Tech 2** 
-  Explanation 2
-- **Tech 3** 
-  Explanation 3
+**Tech 1** 
+- Explanation 1
+**Tech 2** 
+- Explanation 2
+**Tech 3** 
+- Explanation 3
 
 ## Features
 
-- **Feature 1** 
-  Explanation 1
-- **Feature 2** 
-  Explanation 2
-- **Feature 3** 
-  Explanation 3
+**Feature 1** 
+- Explanation 1
+**Feature 2** 
+- Explanation 2
+**Feature 3** 
+- Explanation 3
 
 ## Goals
 
