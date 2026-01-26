@@ -20,16 +20,14 @@ Our project consists of creating a robust tool that lets users assemble SOWs(Sta
   Explanation 2
 - **Feature 3** 
   Explanation 3
-  
-## Getting Started 🚀
 
-### Goals
+## Goals
 
 - Goal 1
 - Goal 2
 - Goal 3
 
-### Progress Plan
+## Progress Plan
 
 - Plan 1
 - Plan 2
