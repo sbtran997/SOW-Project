@@ -7,8 +7,10 @@ Our project consists of creating a robust tool that lets users assemble SOWs(Sta
 
 **Tech 1** 
 - Explanation 1
+
 **Tech 2** 
 - Explanation 2
+
 **Tech 3** 
 - Explanation 3
 
@@ -16,8 +18,10 @@ Our project consists of creating a robust tool that lets users assemble SOWs(Sta
 
 **Feature 1** 
 - Explanation 1
+
 **Feature 2** 
 - Explanation 2
+
 **Feature 3** 
 - Explanation 3
 
