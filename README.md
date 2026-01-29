@@ -41,8 +41,8 @@ Our project consists of creating a robust tool that lets users assemble SOWs(Sta
 
 ### Contributors names 
 
-- Alex Teague <br />
+- Alex Teague - Product Owner <br />
 - Collin Sumrell <br />
-- Joseph Rodriguez <br />
+- Joseph Rodriguez - Quality Assurance <br />
 - Matthew Tran <br />
 - Steven Tran <br />
