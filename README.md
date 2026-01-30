@@ -18,6 +18,11 @@ Our project consists of creating a robust tool that lets users assemble SOWs(Sta
 
 - This is a Python tool that allows you to programmatically create Microsoft Word documents, which is a major feature required by the client. It'll be part of a backend service that takes data fed in by the Next.js frontend to then create .docx files and provide them to the user.
 
+## Installation Requirements
+**Node.js and npm**
+- Node.js https://nodejs.org/en/download
+- NPM(Should be automatically installed with Node.js)
+
 ## Features
 
 **Compatability with Sharepoint**
