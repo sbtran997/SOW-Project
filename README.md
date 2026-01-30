@@ -78,8 +78,9 @@ The backend service is a future task, so instructions for running it are forthco
 
 ### Contributors names
 
-- Alex Teague - Product Owner <br />
-- Collin Sumrell <br />
-- Joseph Rodriguez - Quality Assurance <br />
-- Matthew Tran <br />
-- Steven Tran <br />
+- Alex Teague - Product Owner - responsible for creating KanBanSystem tickets, reaching out to the client on behalf of the dev team, assigning tasks to other developers <br />
+- Joseph Rodriguez - Quality Assurance - Manage the GitHub Repository, create and ensure proper testing, monitor the quality of the product <br />
+- **Sprint Masters** - Responsible for Risk Management, Challanges, Lesson Learned sections of KanBanSystem for all tickets associated with their sprint <br />
+  - Collin Sumrell <br />
+  - Matthew Tran <br />
+  - Steven Tran <br />
