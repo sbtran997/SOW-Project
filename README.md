@@ -20,28 +20,34 @@ Our project consists of creating a robust tool that lets users assemble SOWs(Sta
 
 ## Features
 
-**Feature 1**
+**Compatability with Sharepoint**
 
-- Explanation 1
+- Users need to be able to upload a document to Sharepoint in order to save their work. This may either be done through downloading a document and saving it to sharepoint, or by linking the app to microsoft with an API.
 
-**Feature 2**
+**Creation of Form Templates**
 
-- Explanation 2
+- Certain users must be able to create new templates for SOWs. This must have some sense of access control.
 
-**Feature 3**
+**Document Creation Using Information Entered into Template SOWs**
 
-- Explanation 3
+- Information put into loaded templates must be able to be saved to a document, whether it be .pdf or .docx or .txt
 
 ## Goals
 
-- Goal 1
-- Goal 2
-- Goal 3
+- Long-lasting project use
+- Usability with non-computer wizards (both for template creation and information inputs)
+- Robust and dynamic template framework
 
 ## Progress Plan
 
-- Plan 1
-- Plan 2
+- Template framework/language by end of Sprint 1 (February 20th)
+- Basic proof of work by end of Sprint 1
+  - Web-app shell, with interactability
+  - Library of existing templates
+  - Load an existing template -> turn it into an interactable form
+- Template creation by end of Sprint 2 (March 13th)
+- Saveable documents by end of Sprint 3 (April 17th)
+- Demonstration with client "around 35% completion"
 
 ## Running the Code
 
