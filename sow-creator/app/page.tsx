@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Button } from "@/components/ui/button";
 import {
@@ -48,12 +49,12 @@ export default function Page() {
     <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
-        <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+        <header className="flex h-16 shrink-0 items-center gap-2 px-4">
           <SidebarTrigger className="-ml-1" />
-          <h1 className="text-sm font-semibold">Dashboard</h1>
+          <h1 className="text-sm text-muted-foreground">Dashboard</h1>
         </header>
 
-        <main className="flex flex-1 flex-col gap-6 p-6">
+        <main className="flex flex-1 flex-col gap-6 px-6 pb-6">
           {/* 1. Statistics / Status Overview */}
           <div className="grid gap-4 md:grid-cols-3">
             <Card>
@@ -104,9 +105,11 @@ export default function Page() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full">
-                  Browse Templates
-                </Button>
+                <Link href="/templates/base">
+                  <Button variant="outline" className="w-full">
+                    Browse Templates
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
 
