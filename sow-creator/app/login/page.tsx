@@ -10,7 +10,7 @@ import { FileText } from "lucide-react";
 
 export default function LoginPage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-background via-background to-primary/5 p-4">
+    <div className="flex min-h-screen items-center justify-center bg-linear-to-br from-background via-background to-primary/5 p-4">
       <div className="w-full max-w-md">
         {/* Branding */}
         <div className="mb-8 flex flex-col items-center gap-2">
