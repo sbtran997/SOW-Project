@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Button } from "@/components/ui/button";
 import {
@@ -121,9 +122,11 @@ export default function Page() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full">
-                  Create New
-                </Button>
+                <Link href="/new">
+                  <Button variant="outline" className="w-full">
+                    Create New
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>
