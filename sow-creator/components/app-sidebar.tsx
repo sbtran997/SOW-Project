@@ -47,6 +47,7 @@ const navData = {
         { title: "Base Templates", url: "/templates/base" },
         { title: "My Templates", url: "/templates/personal" },
         { title: "Shared with Me", url: "/templates/shared" },
+        { title: "Section-Templates", url: "/sections/base" },
       ],
     },
     {
