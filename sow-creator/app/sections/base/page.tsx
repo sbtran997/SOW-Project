@@ -107,15 +107,15 @@ export default function BaseTemplatesPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-bold tracking-tight">Base Templates</h2>
+          <h2 className="text-2xl font-bold tracking-tight">Section Templates</h2>
           <p className="text-muted-foreground">
-            Pre-approved SOW templates for common service types.
+            Pre-approved SOW Section Templates for SOW Templates.
           </p>
         </div>
         <Link href="/edit">
           <Button>
             <Plus className="mr-1 h-4 w-4" />
-            New Template
+            New Section-Template
           </Button>
         </Link>
       </div>
