@@ -42,7 +42,7 @@ const mockTemplates: Template[] = [
   },
 ];
 
-export default function BaseTemplatesPage() {
+export default function BaseSectionsPage() {
   const { data: session } = useSession();
   const { viewMode, setViewMode } = useViewMode();
   const [searchQuery, setSearchQuery] = React.useState("");
