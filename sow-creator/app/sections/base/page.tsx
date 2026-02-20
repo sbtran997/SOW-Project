@@ -112,7 +112,7 @@ export default function BaseSectionsPage() {
             Pre-approved SOW Section Templates for SOW Templates.
           </p>
         </div>
-        <Link href="/edit">
+        <Link href="/edit/sections">
           <Button>
             <Plus className="mr-1 h-4 w-4" />
             New Section-Template
