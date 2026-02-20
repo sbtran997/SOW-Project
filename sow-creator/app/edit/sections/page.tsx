@@ -220,20 +220,12 @@ export default function SowEditPage() {
       
       
       sections: [
-        { id: "sec-1", number: "1.0", title: "Project Overview", content: "This Statement of Work (SOW) outlines the scope, deliverables, and requirements for the engagement.", tables: [],
+        { id: "sec", number: "---", title: "Section Name", content: "This is where you will define your Section", tables: [],
           children: [
-            { id: "sec-1-1", number: "1.1", title: "Background", content: "Background information goes here...", tables: [], children: [] },
-            { id: "sec-1-2", number: "1.2", title: "Objectives", content: "The primary objectives of this engagement...", tables: [], children: [] },
+            { id: "sec-1", number: "-.1", title: "Subsection 1", content: "Additional information goes here...", tables: [], children: [] },
+            { id: "sec-2", number: "-.2", title: "Subsection 2", content: "More information can go here...", tables: [], children: [] },
           ]
-        },
-        { id: "sec-2", number: "2.0", title: "Scope of Work", content: "This section defines the detailed scope of work to be performed.", tables: [],
-          children: [
-            { id: "sec-2-1", number: "2.1", title: "In Scope", content: "Items included within the scope of this engagement...", tables: [], children: [] },
-            { id: "sec-2-2", number: "2.2", title: "Out of Scope", content: "Items not explicitly mentioned are considered out of scope.", tables: [], children: [] },
-          ]
-        },
-        { id: "sec-3", number: "3.0", title: "Deliverables", content: "The following deliverables will be provided as part of this engagement.", tables: [], children: [] },
-      ],
+        },],
     };
 
     // Override with setup data from the /new page if present
