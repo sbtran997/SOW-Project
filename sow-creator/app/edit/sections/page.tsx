@@ -220,10 +220,10 @@ export default function SowEditPage() {
       
       
       sections: [
-        { id: "sec", number: "---", title: "Section Name", content: "This is where you will define your Section", tables: [],
+        { id: "sec", number: "1.0", title: "Section Name", content: "This is where you will define your Section", tables: [],
           children: [
-            { id: "sec-1", number: "-.1", title: "Subsection 1", content: "Additional information goes here...", tables: [], children: [] },
-            { id: "sec-2", number: "-.2", title: "Subsection 2", content: "More information can go here...", tables: [], children: [] },
+            { id: "sec-1", number: "1.1", title: "Subsection 1", content: "Additional information goes here...", tables: [], children: [] },
+            { id: "sec-2", number: "1.2", title: "Subsection 2", content: "More information can go here...", tables: [], children: [] },
           ]
         },],
     };
