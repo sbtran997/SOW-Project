@@ -44,7 +44,7 @@ export default function TemplatesLayout({
             <BreadcrumbList>
               <BreadcrumbItem>
                 <BreadcrumbLink asChild>
-                  <Link href="/templates">Templates</Link>
+                  <Link href="/templates">Template Dashboard</Link>
                 </BreadcrumbLink>
               </BreadcrumbItem>
               {isSubPage && (

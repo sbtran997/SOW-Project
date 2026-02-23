@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
-import { NavSecondary } from "@/components/nav-secondary";
+//import { NavSecondary } from "@/components/nav-secondary";
 import { NavUser } from "@/components/nav-user";
 import {
   Sidebar,
@@ -27,17 +27,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 const navData = {
   navMain: [
-    {
-      title: "SOW Management",
-      url: "/sows",
-      icon: FileText,
-      isActive: true,
-      items: [
-        { title: "Active Drafts", url: "/sows/active" },
-        { title: "Review Queue", url: "/sows/review" },
-        { title: "Archive", url: "/sows/archive" },
-      ],
-    },
     {
       title: "Templates",
       url: "/templates",
@@ -61,16 +50,6 @@ const navData = {
     },
   ],
   navSecondary: [
-    {
-      title: "Documentation",
-      url: "/docs",
-      icon: BookOpen,
-    },
-    {
-      title: "Feedback",
-      url: "/feedback",
-      icon: Send,
-    },
   ],
 };
 
@@ -112,7 +91,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 
       <SidebarContent>
         <NavMain items={navData.navMain} />
-        <NavSecondary items={navData.navSecondary} className="mt-auto" />
       </SidebarContent>
 
       <SidebarFooter>
