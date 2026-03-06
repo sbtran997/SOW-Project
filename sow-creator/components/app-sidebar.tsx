@@ -8,7 +8,7 @@ import {
   Send,
   LayoutTemplate,
   ShieldCheck,
-  FileText,
+  LayoutDashboard,
 } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
@@ -28,15 +28,11 @@ import { Skeleton } from "@/components/ui/skeleton";
 const navData = {
   navMain: [
     {
-      title: "SOW Management",
-      url: "/sows",
-      icon: FileText,
+      title: "Dashboard",
+      url: "/",
+      icon: LayoutDashboard,
       isActive: true,
-      items: [
-        { title: "Active Drafts", url: "/sows/active" },
-        { title: "Review Queue", url: "/sows/review" },
-        { title: "Archive", url: "/sows/archive" },
-      ],
+      items: [],
     },
     {
       title: "Templates",
@@ -77,7 +73,6 @@ const navData = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { data: session, status } = useSession();
 
-  // Build user object from session or use placeholder during loading
   const user = session?.user
     ? {
         name: session.user.name ?? "User",
